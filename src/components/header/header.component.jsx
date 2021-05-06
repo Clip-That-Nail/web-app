@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <div className={classes.root}>
-      <AppBar style={{ background: '#1e88e5' }} position="static">
+      <AppBar style={{ background: '#1e88e5' }} position="absolute">
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
