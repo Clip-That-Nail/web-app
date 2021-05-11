@@ -3,21 +3,21 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
 import Header from './components/header/header.component';
+import Session from './pages/session/session.component';
+
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route path="/session">
-          session
-          {/* <Session /> */}
+          <Session />
         </Route>
         <Route path="/users">
           users
