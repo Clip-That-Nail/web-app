@@ -11,7 +11,6 @@ import HomePage from './pages/homepage/homepage.component';
 import Header from './components/header/header.component';
 import Session from './pages/session/session.component';
 
-
 function App() {
   return (
     <Router>
