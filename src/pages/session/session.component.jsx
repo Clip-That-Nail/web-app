@@ -22,7 +22,7 @@ const Session = () => {
 
     return (
         <div className=''>
-            <Header />
+            {/* <Header /> */}
             {displayContent()}
             <BottomTabs selected={selectedPaw} setSelected={setSelectedPaw} />
         </div>
