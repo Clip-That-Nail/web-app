@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from '../../components/header/header.component';
 import BottomTabs from '../../components/bottom-tabs/bottom-tabs.component';
+import FrontLeftPaw from '../../components/paw-tabs/front-left-paw-tab.component';
 
 
 const Session = () => {
@@ -9,7 +10,7 @@ const Session = () => {
 
     const displayContent = () => {
         if (selectedPaw === 0) {
-            return <div> Front Left Paw</div>
+            return <div> <FrontLeftPaw></FrontLeftPaw></div>
         } else if (selectedPaw === 1) {
             return <div> Front Right Paw</div>
         } else if (selectedPaw === 2) {
