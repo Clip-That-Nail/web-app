@@ -4,6 +4,7 @@ import CheckBoxIcon from '@material-ui/icons/CheckBox';
 import Button from '@material-ui/core/Button';
 import { green, lightBlue } from '@material-ui/core/colors';
 
+import PawOutcomeTabs from '../paw-outcome-tabs/paw-outcome-tabs.component';
 
 const useStyles = makeStyles({
     checkboxSumOne: {
@@ -81,6 +82,7 @@ const PawSummary = () => {
             <div className={classes.allButtons}>
                 <BlueButton variant="contained" size="large">NEXT PAW</BlueButton>
                 <GreenButton variant="contained" color="primary" size="large">FINISH SESSION</GreenButton>
+                <PawOutcomeTabs></PawOutcomeTabs>
             </div>
         </div>
     )
