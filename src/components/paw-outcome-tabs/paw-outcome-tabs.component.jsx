@@ -41,6 +41,70 @@ const PawOutcomeTabs = () => {
           <MenuItem value={30}>Warning</MenuItem>
         </Select>
       </FormControl>
+      <FormControl variant="filled" className={classes.pawOutcome}>
+        <InputLabel id="demo-simple-select-filled-label">Select positive outcome</InputLabel>
+        <Select
+          labelId="demo-simple-select-filled-label"
+          id="demo-simple-select-filled"
+          value={outcome}
+          onChange={handleChange}
+        >
+          <MenuItem value="">
+            <em>None</em>
+          </MenuItem>
+          <MenuItem value={10}>Positive</MenuItem>
+          <MenuItem value={20}>Bleeding</MenuItem>
+          <MenuItem value={30}>Warning</MenuItem>
+        </Select>
+      </FormControl>
+      <FormControl variant="filled" className={classes.pawOutcome}>
+        <InputLabel id="demo-simple-select-filled-label">Select positive outcome</InputLabel>
+        <Select
+          labelId="demo-simple-select-filled-label"
+          id="demo-simple-select-filled"
+          value={outcome}
+          onChange={handleChange}
+        >
+          <MenuItem value="">
+            <em>None</em>
+          </MenuItem>
+          <MenuItem value={10}>Positive</MenuItem>
+          <MenuItem value={20}>Bleeding</MenuItem>
+          <MenuItem value={30}>Warning</MenuItem>
+        </Select>
+      </FormControl>
+      <FormControl variant="filled" className={classes.pawOutcome}>
+        <InputLabel id="demo-simple-select-filled-label">Select positive outcome</InputLabel>
+        <Select
+          labelId="demo-simple-select-filled-label"
+          id="demo-simple-select-filled"
+          value={outcome}
+          onChange={handleChange}
+        >
+          <MenuItem value="">
+            <em>None</em>
+          </MenuItem>
+          <MenuItem value={10}>Positive</MenuItem>
+          <MenuItem value={20}>Bleeding</MenuItem>
+          <MenuItem value={30}>Warning</MenuItem>
+        </Select>
+      </FormControl>
+      <FormControl variant="filled" className={classes.pawOutcome}>
+        <InputLabel id="demo-simple-select-filled-label">Select positive outcome</InputLabel>
+        <Select
+          labelId="demo-simple-select-filled-label"
+          id="demo-simple-select-filled"
+          value={outcome}
+          onChange={handleChange}
+        >
+          <MenuItem value="">
+            <em>None</em>
+          </MenuItem>
+          <MenuItem value={10}>Positive</MenuItem>
+          <MenuItem value={20}>Bleeding</MenuItem>
+          <MenuItem value={30}>Warning</MenuItem>
+        </Select>
+      </FormControl>
     </div>
   );
 };

@@ -45,7 +45,7 @@ const useStyles = makeStyles({
     allButtons: {
         position: 'fixed',
         marginTop: 480,
-        marginLeft: 720
+        marginLeft: 800
     },
 });
 
@@ -63,6 +63,7 @@ const GreenButton = withStyles((theme) => ({
     root: {
       color: theme.palette.getContrastText(lightBlue[500]),
       backgroundColor: lightBlue[500],
+      marginRight: 20,
       '&:hover': {
         backgroundColor: lightBlue[700],
       },
