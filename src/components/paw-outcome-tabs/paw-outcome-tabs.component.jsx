@@ -4,6 +4,7 @@ import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
+import CustomCheckbox from '../custom-checkbox/custom-checkbox.component';
 
 const useStyles = makeStyles((theme) => ({
   pawOutcome: {
@@ -25,6 +26,7 @@ const PawOutcomeTabs = () => {
 
   return (
     <div>
+      <CustomCheckbox></CustomCheckbox>
       <FormControl variant="filled" className={classes.pawOutcome}>
         <InputLabel id="demo-simple-select-filled-label">Select positive outcome</InputLabel>
         <Select
@@ -41,6 +43,7 @@ const PawOutcomeTabs = () => {
           <MenuItem value={30}>Warning</MenuItem>
         </Select>
       </FormControl>
+      <CustomCheckbox></CustomCheckbox>
       <FormControl variant="filled" className={classes.pawOutcome}>
         <InputLabel id="demo-simple-select-filled-label">Select positive outcome</InputLabel>
         <Select
