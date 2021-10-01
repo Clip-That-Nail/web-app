@@ -10,11 +10,15 @@ import './App.css';
 import HomePage from './pages/homepage/homepage.component';
 import Header from './components/header/header.component';
 import Session from './pages/session/session.component';
+import RegisterForm from './components/forms/register-form.component';
 
 function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/register-form">
+          <RegisterForm />
+        </Route>
         <Route path="/session">
           <Session />
         </Route>
